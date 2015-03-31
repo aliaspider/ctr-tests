@@ -1,6 +1,6 @@
 TARGET := 3ds_test
 OBJS :=
-OBJS += test.o main.o math.o gs.o _gs.o
+OBJS += test.o main.o
 #NO_SMDH = 1
 
 

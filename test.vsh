@@ -21,6 +21,9 @@
 		dp4 o0, c1, r0 (0x1)
 		dp4 o0, c2, r0 (0x2)
 		dp4 o0, c3, r0 (0x3)
+		 ; mov o0, v0 (0x4)
+		 ; mov o0, c20 (0x3)
+		;mov o0, r0 (0x5)
 		; result.texcoord = in.texcoord
 		mov o1, c4 (0x5)
 		mov o2, v1 (0x5)
